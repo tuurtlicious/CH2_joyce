@@ -38,6 +38,7 @@ body{
     font-size: 20px;
 }
 
+/*smartphone screen*/
 @media screen and (min-width: 360px) {
 	.flex-container{
 		font-size: 55px;
@@ -52,12 +53,37 @@ body{
 	background:url('../images/happyfly.png');
 	/*Cut the picture in half*/
 	display: inline;
-	width:168.5px;
-	height:190px;
+	width: 168.5px;
+	height: 190px;
 	position:absolute;
 	
 	/*SO that the cat will not start from 0%*/
 	left: -60px;
 	z-index: 2;
+}
+}
+
+/*tablet screen */
+@media screen and (min-width: 768px) {
+	.flex-container{
+		font-size: 75px;
+	}
+	
+	#dateDisplay{
+		font-size: 30px;
+		top: 55%;
+	}
+}
+
+/*laptop and desktop screen*/
+@media screen and (min-width: 1366px) {
+	.flex-container{
+		font-size: 100px;
+	}
+	
+	#dateDisplay{
+		font-size: 25px;
+		top: 57%;
+	}
 }
 }
