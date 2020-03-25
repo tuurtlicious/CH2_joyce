@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Inter');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.flex-container{
+    /*center columns*/
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+    /*put the clock in them middle of the screen*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    
+    font-family: Poppins;
+    letter-spacing: 7px;
+    z-index: 10;
+    font-size: 38px;
+}
+
+#dateDisplay{
+    font-family: Inter;
+    letter-spacing: 5px;
+    
+    position: absolute;
+    top:55%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    
+    font-size: 20px;
+}
+
+@media screen and (min-width: 360px) {
+	.flex-container{
+		font-size: 55px;
+	}
+	
+	#dateDisplay{
+		font-size: 25px;
+		font-weight: 100;
+	}
+	
+	.bird {
+	background:url('../images/happyfly.png');
+	/*Cut the picture in half*/
+	display: inline;
+	width:168.5px;
+	height:190px;
+	position:absolute;
+	
+	/*SO that the cat will not start from 0%*/
+	left: -60px;
+	z-index: 2;
+}
+}
