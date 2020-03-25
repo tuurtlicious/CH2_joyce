@@ -41,7 +41,7 @@ body{
 /*smartphone screen*/
 @media screen and (min-width: 360px) {
 	.flex-container{
-		font-size: 55px;
+		font-size: 50px;
 	}
 	
 	#dateDisplay{
