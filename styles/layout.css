@@ -102,29 +102,6 @@ body{
 		font-size: 20px;
 		font-weight: 100;
     }
-    
-    #morningjk{
-        margin-top: 40px;
-        animation: mymove 10s infinite;
-        animation-timing-function: ease-in;
-    }
-
-    @keyframes mymove{
-        from {left: -100px;}
-        to {right: 500px;}
-    }
-
-    #sleepingjk{
-        max-width: 100px;
-        max-height: 100px;
-        margin-top: 40px;
-        animation-timing-function: ease-in;
-    }
-
-    @keyframes mymove{
-        from {left:-100px;}
-        to {right: 500px;}
-    }
 }
 
 /*tablet screen */
