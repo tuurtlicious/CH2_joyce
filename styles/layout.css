@@ -74,8 +74,23 @@ body{
 
 @keyframes mymove {
     from {left: -220px;}
-    to {left: 1000px;}
+    to {left: 1440px;}
   }
+
+#sleepingjk{
+    width: 100px;
+    height: 100px;
+    margin-top: 5%;
+    position: absolute;
+    animation: mymove 15s infinite;
+    animation-timing-function: ease-in;
+}
+
+@keyframes mymove {
+    from {left: -220px;}
+    to {left: 1440px;}
+}  
+
 
 /*smartphone screen*/
 @media screen and (min-width: 360px) {

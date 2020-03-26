@@ -55,7 +55,8 @@ function backgroundColor() {
 	  if (5 <= currentTime&&currentTime < 8) {
        document.body.style.backgroundColor = "#776FAB";
 	   document.getElementById("clockDisplay").style.color = "#A6A2FF";
-	   document.getElementById("dateDisplay").style.color = "#352F5D";
+       document.getElementById("dateDisplay").style.color = "#352F5D";
+       document.getElementById("sleepingjk").style.display = "none";
       }
 	  
 	  //day
@@ -64,6 +65,7 @@ function backgroundColor() {
 	   document.getElementById("clockDisplay").style.color = "#F8BB62";
        document.getElementById("dateDisplay").style.color = "#F6B866";
        document.getElementById("morningjk").style.display = "none";
+       document.getElementById("sleepingjk").style.display = "none";
       }
 	  
 	  //evening
@@ -72,6 +74,7 @@ function backgroundColor() {
 	   document.getElementById("clockDisplay").style.color = "#FE7D87";
        document.getElementById("dateDisplay").style.color = "#5D2C35";
        document.getElementById("morningjk").style.display = "none";
+       document.getElementById("sleepingjk").style.display = "none";
       }
 	  
 	  //night
