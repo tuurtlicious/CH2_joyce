@@ -49,8 +49,8 @@ function backgroundColor() {
 	   document.getElementById("clockDisplay").style.color = "#A6A2FF";
        document.getElementById("dateDisplay").style.color = "#A6A2FF";
        document.getElementById("morningjk").style.display = "none";
-       //document.getElementById("dayjk").style.display = "none";
-       document.getElementById("sleepingjk").style.display = "none";
+       document.getElementById("dayjk").style.display = "none";
+       //document.getElementById("sleepingjk").style.display = "none";
       }
 	  
 	  //morning
@@ -78,7 +78,7 @@ function backgroundColor() {
        document.getElementById("dateDisplay").style.color = "#5D2C35";
        document.getElementById("morningjk").style.display = "none";
        document.getElementById("sleepingjk").style.display = "none";
-       document.getElementById("dayjk").style.display = "none";
+       //document.getElementById("dayjk").style.display = "none";
       }
 	  
 	  //night
