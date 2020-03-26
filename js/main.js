@@ -47,7 +47,8 @@ function backgroundColor() {
       if (0 <= currentTime&&currentTime < 5) {
        document.body.style.backgroundColor = "#345C9A";
 	   document.getElementById("clockDisplay").style.color = "#A6A2FF";
-	   document.getElementById("dateDisplay").style.color = "#A6A2FF";
+       document.getElementById("dateDisplay").style.color = "#A6A2FF";
+       document.getElementById("morningjk").style.display = "none";
       }
 	  
 	  //morning
@@ -61,21 +62,24 @@ function backgroundColor() {
       if (8 <= currentTime&&currentTime < 17) {
        document.body.style.backgroundColor = "#F1D4A7";
 	   document.getElementById("clockDisplay").style.color = "#F8BB62";
-	   document.getElementById("dateDisplay").style.color = "#F6B866";
+       document.getElementById("dateDisplay").style.color = "#F6B866";
+       document.getElementById("morningjk").style.display = "none";
       }
 	  
 	  //evening
       if (17 <= currentTime&&currentTime < 21) {
        document.body.style.backgroundColor = "#C15970";
 	   document.getElementById("clockDisplay").style.color = "#FE7D87";
-	   document.getElementById("dateDisplay").style.color = "#5D2C35";
+       document.getElementById("dateDisplay").style.color = "#5D2C35";
+       document.getElementById("morningjk").style.display = "none";
       }
 	  
 	  //night
       if (21 <= currentTime&&currentTime < 24) {
 	   document.body.style.backgroundColor = "#454792";
 	   document.getElementById("clockDisplay").style.color = "#5B8FC9";
-	   document.getElementById("dateDisplay").style.color = "#323159";
+       document.getElementById("dateDisplay").style.color = "#323159";
+       document.getElementById("morningjk").style.display = "none";
       }
 }
 

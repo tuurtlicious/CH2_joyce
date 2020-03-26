@@ -29,12 +29,12 @@ body{
 
 #clockDisplay{
     transform: scale(1);
-    animation: pulse 1s infinite;
+    animation: pulse 0.95s infinite;
 }
 
 @keyframes pulse {
 	0% {
-		transform: scale(0.95);
+		transform: scale(0.90);
 		/* box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7); */
 	}
 	
@@ -44,7 +44,7 @@ body{
 	}
 	
 	100% {
-		transform: scale(0.95);
+		transform: scale(0.90);
 		/* box-shadow: 0 0 0 0 rgba(0, 0, 0, 0); */
 	}
 }
@@ -62,6 +62,20 @@ body{
     font-size: 20px;
 
 }
+
+#morningjk{
+    width: 100px;
+    height: 100px;
+    margin-top: 20%;
+    position: absolute;
+    animation: mymove 15s infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes mymove {
+    from {left: -220px;}
+    to {left: 1000px;}
+  }
 
 /*smartphone screen*/
 @media screen and (min-width: 360px) {
