@@ -99,12 +99,13 @@ body{
 
 #dayjk {
     position: absolute;
-    animation: daylight 15s infinite;
+    animation: daylight 25s infinite;
     animation-timing-function: ease-in-out;
 }
+
 @keyframes daylight {
-    from {left: -220px;}
-    to {left: 1440px;}
+    from {left: -400px;}
+    to {left: 1500px;}
 }  
 
 /*smartphone screen*/
