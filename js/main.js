@@ -49,6 +49,8 @@ function backgroundColor() {
 	   document.getElementById("clockDisplay").style.color = "#A6A2FF";
        document.getElementById("dateDisplay").style.color = "#A6A2FF";
        document.getElementById("morningjk").style.display = "none";
+       //document.getElementById("dayjk").style.display = "none";
+       document.getElementById("sleepingjk").style.display = "none";
       }
 	  
 	  //morning
@@ -57,6 +59,7 @@ function backgroundColor() {
 	   document.getElementById("clockDisplay").style.color = "#A6A2FF";
        document.getElementById("dateDisplay").style.color = "#352F5D";
        document.getElementById("sleepingjk").style.display = "none";
+       document.getElementById("dayjk").style.display = "none";
       }
 	  
 	  //day
@@ -75,6 +78,7 @@ function backgroundColor() {
        document.getElementById("dateDisplay").style.color = "#5D2C35";
        document.getElementById("morningjk").style.display = "none";
        document.getElementById("sleepingjk").style.display = "none";
+       document.getElementById("dayjk").style.display = "none";
       }
 	  
 	  //night
@@ -83,6 +87,7 @@ function backgroundColor() {
 	   document.getElementById("clockDisplay").style.color = "#5B8FC9";
        document.getElementById("dateDisplay").style.color = "#323159";
        document.getElementById("morningjk").style.display = "none";
+       document.getElementById("dayjk").style.display = "none";
       }
 }
 

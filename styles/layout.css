@@ -64,33 +64,48 @@ body{
 }
 
 #morningjk{
-    width: 100px;
-    height: 100px;
-    margin-top: 20%;
     position: absolute;
-    animation: mymove 15s infinite;
+    animation: morning 15s infinite;
     animation-timing-function: ease-in-out;
 }
 
-@keyframes mymove {
+@keyframes morning {
     from {left: -220px;}
     to {left: 1440px;}
   }
 
+#jungkook1 {
+    margin-top: 20%;
+    border-radius: 50%;
+}  
+
 #sleepingjk{
     width: 100px;
-    height: 100px;
     margin-top: 5%;
     position: absolute;
-    animation: mymove 15s infinite;
-    animation-timing-function: ease-in;
+    animation: sleeping 15s infinite;
+    animation-timing-function: ease-in-out;
 }
 
-@keyframes mymove {
+@keyframes sleeping {
     from {left: -220px;}
     to {left: 1440px;}
 }  
 
+#jungkook3 {
+    margin-top: 8%;
+    border-radius: 100%;
+}
+
+#dayjk {
+    position: absolute;
+    animation: daylight 15s infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes daylight {
+    from {left: -220px;}
+    to {left: 1440px;}
+}  
 
 /*smartphone screen*/
 @media screen and (min-width: 360px) {
