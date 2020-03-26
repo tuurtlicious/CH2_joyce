@@ -59,9 +59,9 @@ function backgroundColor() {
 	  
 	  //day
       if (8 <= currentTime&&currentTime < 17) {
-       document.body.style.backgroundColor = "#F8BB62";
-	   document.getElementById("clockDisplay").style.color = "##F2D4A8";
-	   document.getElementById("dateDisplay").style.color = "#F1D5A5";
+       document.body.style.backgroundColor = "#F1D4A7";
+	   document.getElementById("clockDisplay").style.color = "#F8BB62";
+	   document.getElementById("dateDisplay").style.color = "#F6B866";
       }
 	  
 	  //evening
